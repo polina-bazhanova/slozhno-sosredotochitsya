@@ -14,8 +14,7 @@
   --background-image: url(../images/cover-image-dark.png);
 }
 
-@media (prefers-color-scheme: dark) {
-  .page.theme_dark {
+:root {
   --main-color: #000028;
   --decorated-elements-color: #FF0070;
   --menu-text-color: #FF0070;
@@ -29,9 +28,4 @@
   --link-shadow-color: #FF0070;
   --hover-button-color: #FF007066;
   --background-image: url(../images/cover-image-dark.png);
-  }
-
-  .theme_dark .page {
-    background-image: url(../images/cover-image-dark.png);
-  }
 }

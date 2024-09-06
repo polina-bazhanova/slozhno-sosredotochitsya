@@ -15,7 +15,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page.theme_light {
+  :root {
     --main-color:  #FFF1F7;
     --decorated-elements-color: #353430;
     --menu-text-color: #353430;
@@ -29,9 +29,5 @@
     --link-shadow-color: #FF8DCB;
     --hover-button-color: #32312D66;
     --background-image: url(../images/cover-image-light.png);
-    }
-
-    .theme_light .page {
-      background-image: url(../images/cover-image-light.png);
     }
 }
