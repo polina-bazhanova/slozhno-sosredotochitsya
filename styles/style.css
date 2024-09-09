@@ -20,12 +20,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-inline: 10px;
+  block-size: 100vh;
   min-block-size: 668px;
 }
 
 @media (min-width: 768px) {
   .header {
-    block-size: 100vh;
     min-block-size: 1024px;
     padding-inline-start: 0;
     padding-inline-end: 20px;
@@ -419,8 +419,21 @@ button {
 .footer {
   display: grid; 
   block-size: 100vh;
+  min-block-size: 668px;
   align-items: center;
   justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    min-block-size: 1024px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    min-block-size: 768px;
+  }
 }
 
 .footer p {
