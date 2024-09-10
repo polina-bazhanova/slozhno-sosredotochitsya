@@ -12,4 +12,5 @@
   --link-shadow-color: #FF0070;
   --hover-button-color: #FF007066;
   --background-image: url(../images/cover-image-dark.png);
+  --decorated-element-visibility: hidden;
 } 

@@ -12,6 +12,7 @@
   --link-shadow-color: #FF8DCB;
   --hover-button-color: #32312D66;
   --background-image: url(../images/cover-image-light.png);
+  --decorated-element-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,5 +30,6 @@
     --link-shadow-color: #FF8DCB;
     --hover-button-color: #32312D66;
     --background-image: url(../images/cover-image-light.png);
+    --decorated-element-visibility: hidden;
     }
 }
